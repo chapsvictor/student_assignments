@@ -1,3 +1,4 @@
+""" calculate the first ten fibonacci numbers"""
 n1 = 0
 n2 = 1
 
