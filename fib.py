@@ -9,3 +9,4 @@ fib_ten_numbers = fib(10)
 for numbers in fib_ten_numbers:
     print(numbers, end=", ")
 
+"""this is a code description of how i calculated the first ten number of a fibonnaci sequence"""
