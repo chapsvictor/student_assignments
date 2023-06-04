@@ -1,10 +1,12 @@
-lst =[1,2,3,4,-6,8,9]
-set_sum =0
-for i in lst:
-    if i > 0:
-        set_sum += i
-        
-        #print(set_sum)
-    else:
+collins2
+"""A list of numbers were great woth both positive numbers and negative numbesr. 
+I wrote a program to sum the positive numbers and break out when negative number is reach .  """
+mylist= [-1, 2,-3,4,5]
+sum_list=0
+for num in mylist:
+    if num < 0:
         break
-print(set_sum)
+    if num>=0:
+        sum_list=num+num
+print(sum_list)
+
